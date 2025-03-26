@@ -94,3 +94,24 @@ div.item:hover i {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+
+@media (min-width: 600px) {
+    .container {
+        justify-content: space-around;
+    }
+    .item {
+        width: 45%; 
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        justify-content: center;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .item {
+        width: 30%; 
+    }
+}
